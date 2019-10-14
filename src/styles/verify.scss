@@ -1,0 +1,204 @@
+
+
+/*常规验证码*/
+.verify-code {
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 5px;
+	border: 1px solid #ddd;
+}
+
+.cerify-code-panel {
+	height:100%;
+	overflow:hidden;
+}
+
+.verify-code-area {
+	float:left;
+}
+
+.verify-input-area {
+	float: left;
+	width: 60%;
+	padding-right: 10px;
+	
+}
+
+.verify-change-area {
+	line-height: 30px;
+	float: left;
+}
+
+.varify-input-code {
+	display:inline-block; 
+	width: 100%;
+	height: 25px;
+}
+
+.verify-change-code {
+	color: #337AB7;
+	cursor: pointer;
+}
+
+.verify-btn {
+	width: 200px;
+	height: 30px;
+	background-color: #337AB7;
+	color:#FFFFFF;
+	border:none;
+	margin-top: 10px;
+}
+/*滑动验证码*/
+.verify-bar-area {
+	position: relative;
+	margin: 0 auto;
+    background: #4d5a69;
+   	text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+ 
+.verify-bar-area .verify-move-block {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    background: #fff;
+    cursor: pointer;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    box-shadow: 0 0 2px #888888;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #aaa;
+}
+
+.verify-bar-area .verify-move-block:hover {
+    background-color: #EEFFF5;
+    color: #FFFFFF;
+}
+
+.verify-bar-area .verify-left-bar {
+    position: absolute;
+    top: 0;
+	left: 0;
+    cursor: pointer;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.verify-img-panel {
+	margin:0 auto;
+	-webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+	position: relative;
+}
+
+.verify-img-panel .verify-refresh {
+	width: 25px;
+	height: 25px;
+	text-align:center;
+	padding: 5px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+}
+
+.verify-img-panel .icon-refresh {
+	font-size: 20px;
+	color: #fff;
+}
+
+.verify-img-panel .verify-gap {
+	background-color: #fff;
+	position: relative;
+	z-index: 2;
+	border:1px solid #fff;
+}
+
+.verify-bar-area .verify-move-block .verify-sub-block {
+	position: absolute;
+    text-align: center;
+	z-index: 3;
+	border: 1px solid #fff;
+}
+
+.verify-bar-area .verify-move-block .verify-icon {
+	font-size: .6rem;
+}
+
+.verify-bar-area .verify-msg {
+	z-index : 3;
+	color: #4d5a69;
+	background: #fff;
+	border-radius: 34px;
+}
+.icon-check:before { content: "\e645"; }
+
+.icon-close:before { content: "\e648"; }
+
+.icon-right:before { content: "\e619"; }
+
+.icon-refresh:before { content: "\e652"; }
+.geetest{
+	position: relative;
+}
+.geetest_radar_tip{
+	display: block;
+	position: relative;
+	margin-left: 100px;
+    padding: 0 46px 0 46px;
+    height: 42px;
+    width: 298px;
+    line-height: 42px;
+    font-size: 14px;
+	color: #666;
+	border: 1px solid #ccc;
+    border-radius: 2px;
+	white-space: nowrap;
+	cursor: pointer;
+	box-sizing: border-box;
+	background-image: linear-gradient(180deg, #ffffff 0%,#f3f3f3 100%);
+}
+.geetest_radar_tip::before{
+	position: absolute;
+	content: "";
+	top: 5px;
+	left: 5px;
+	width: 30px;
+	height: 30px;
+}
+.ready::before{
+	/* background: url("../images/verifybt.gif") no-repeat; */
+	background-size: 100% 100%;
+}
+.success{
+	border-color: #18A452;
+	color: #18A452 !important;
+	background-color: #EEFFF5;
+	background-image: none;
+}
+.success::before{
+	top: 7px;
+	left: 7px;
+	width: 25px;
+	height: 25px;
+	/* background: url("../images/success.png") no-repeat; */
+	background-size: 100% 100%;
+}
+.mpanel{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 100px;
+	padding: 3px;
+	width: 306px;
+	background-color: #fff;
+	box-shadow: 0 0 10px #cccccc;
+}

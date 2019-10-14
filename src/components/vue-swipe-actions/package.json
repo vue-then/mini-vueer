@@ -1,0 +1,106 @@
+{
+  "_from": "vue-swipe-actions@^2.0.0-beta.6",
+  "_id": "vue-swipe-actions@2.0.0-beta.18",
+  "_inBundle": false,
+  "_integrity": "sha512-ONa0l9K3iWw0RIX9Xs+ECCN0mqcyYsYodmcJ48HymZP18ZjFJu3n1zNapWGXXFDl72oJX5D7KSD1p0enBOJn2Q==",
+  "_location": "/vue-swipe-actions",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "vue-swipe-actions@^2.0.0-beta.6",
+    "name": "vue-swipe-actions",
+    "escapedName": "vue-swipe-actions",
+    "rawSpec": "^2.0.0-beta.6",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.0-beta.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-swipe-actions/-/vue-swipe-actions-2.0.0-beta.18.tgz",
+  "_shasum": "87edb0d3ee34d5bb87413c32082a834b0e614f80",
+  "_spec": "vue-swipe-actions@^2.0.0-beta.6",
+  "_where": "/Users/xieyadong/adm/webpack-pkskin",
+  "author": {
+    "name": "eCollect AG"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "bugs": {
+    "url": "https://github.com/eCollect/vue-swipe-actions/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "iOS style swipe actions",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-service": "^3.8.4",
+    "autoprefixer": "^9.6.0",
+    "babel-eslint": "^10.0.2",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "cssnano": "^4.1.10",
+    "eslint": "^5.16.0",
+    "eslint-config-ecollect-vue": "^0.1.0-beta.1",
+    "eslint-loader": "^2.1.2",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "gh-pages-deploy": "^0.5.1",
+    "postcss": "^7.0.17",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.16.2",
+    "rollup-plugin-buble": "^0.19.6",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.1.0",
+    "rollup-plugin-vue": "^5.0.0",
+    "uglify-es": "^3.3.9",
+    "vue": "^2.6.10",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "gh-pages-deploy": {
+    "staticpath": "demo/dist",
+    "prep": [
+      "build-demo"
+    ]
+  },
+  "homepage": "https://github.com/eCollect/vue-swipe-actions#readme",
+  "keywords": [
+    "vuejs",
+    "vue-swipe-actions",
+    "vue",
+    "swipe",
+    "list"
+  ],
+  "license": "MIT",
+  "main": "./dist/vue-swipe-actions.common.js",
+  "module": "./src/index.esm.js",
+  "name": "vue-swipe-actions",
+  "peerDependencies": {
+    "vue": "^2.6.10"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eCollect/vue-swipe-actions.git"
+  },
+  "scripts": {
+    "build-bundle": "node build/build.js",
+    "build-demo": "NODE_ENV=production vue-cli-service build ./demo/src/main.js --dest ./demo/dist",
+    "deploy": "gh-pages-deploy",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve ./demo/src/main.js"
+  },
+  "version": "2.0.0-beta.18"
+}

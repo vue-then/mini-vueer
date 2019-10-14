@@ -1,0 +1,332 @@
+$primary-color: #17c492;
+$normal-color: #848484;
+$link-color: $primary-color;
+$link-hover-color: mix($link-color, #000, 80%);
+$text-color: #333;
+$light-color: #F6F6F6;
+$dark-color: #DADADA;
+
+
+$color-a: #fb5151;
+$color-b: #f00a38;
+/*大转盘*/
+$color-c: #e60012;
+/*钱包*/
+$color-d: #eb1d1d;
+$color-e: #f4224c;
+/*大转盘*/
+$color-f: #f53045;
+/*红包弹窗*/
+$color-g: #f62f56;
+$color-h: #ff3e2e;
+/*红包弹窗*/
+$color-i: #ff3b30;
+$color-j: #fc5576;
+/*大转盘*/
+$color-k: #ff4857;
+/*大转盘*/
+$color-l: #fa466a;
+/*大转盘*/
+
+$color-m: #ff4200;
+/*大转盘*/
+$color-n: #fc4e02;
+/*活动*/
+$color-o: #F97526;
+/*活动*/
+$color-p: #f78e27;
+$color-q: #ECB341;
+/*活动*/
+$color-r: #f19149;
+/*钱包*/
+$color-s: #ffd987;
+/*红包*/
+$color-t: #fedbc6;
+/*大转盘*/
+$color-u: #ffeee4;
+/*大转盘*/
+
+
+
+$color-v: #ad5da1;
+/*钱包*/
+$color-w: #ff5500;
+/* v2 #8976cc */
+$color-x: #7c71ab;
+
+$color-y: #add9cc;
+$color-z: #00b7ee;
+/*钱包*/
+$color-A: #39dceb;
+/*钱包*/
+
+$color-B: #252232;
+$color-C: #323233;
+$color-D: #333333;
+$color-E: #343152;
+$color-F: #353355;
+
+$color-G: #38364d;
+$color-H: #636986;
+/*没有定义I*/
+$color-J: #646466;
+$color-K: #818181;
+$color-L: #8a9994;
+$color-M: #969699;
+$color-N: #a0a0a0;
+$color-O: #c7c7cc;
+$color-P: #c8c8cc;
+$color-Q: #f0f0f5;
+$color-R: #f5f5f5;
+$color-S: #f5f5fa;
+$color-T: #988dcc;
+$color-U: #353147;
+$color-V: #726a99;
+$color-W: #cccccc;
+$color-X: #595959;
+
+$color-Y: #a3629e;
+$color-Z: #a58bb9;
+
+$color-other-a: #da70a0;
+$color-other-b: #1b4797;
+$color-other-c: #94cac8;
+$color-other-d: #30303e;
+$color-other-e: #6b6680;
+$color-other-f: #8a87ad;
+$color-other-g: #fde909;
+$color-other-h: #2e2a3d;
+$color-other-i: #ffad84;
+$color-other-j: #ff8d3a;
+$color-other-k: #1201d5;
+$color-other-l: #464ff4;
+$color-other-m: #656b79;
+$color-other-n: #fbfbfb;
+$color-other-o: #f2f4fa;
+
+$color-other-888: #888;
+
+$color-444: #444;
+
+$color-rgab-black: rgba(0, 0, 0, 0.1);
+$color-rgab-black2: rgba(0, 0, 0, 0.2);
+$color-rgab-black3: rgba(0, 0, 0, 0.3);
+$color-rgab-black4: rgba(0, 0, 0, 0.4);
+$color-rgab-black5: rgba(0, 0, 0, 0.5);
+$color-rgab-black6: rgba(0, 0, 0, 0.6);
+$color-rgab-black7: rgba(0, 0, 0, 0.7);
+$color-rgab-black8: rgba(0, 0, 0, 0.8);
+
+$color-rgab-a2: rgba(167, 163, 229, 0.2);
+$color-rgab-a4: rgba(167, 163, 229, 0.4);
+
+
+$color-rgab-b2: rgba(162, 100, 85, 0.2);
+
+
+$color-rgab-c3: rgba(0, 216, 151, 0.3);
+
+$color-rgab-d3: rgba(255, 223, 96, 0.3);
+
+
+/*//------问卷*/
+$color-qs-wt:#ff321d;
+$color-qs-yt:#009944;
+
+
+/*新定义的*/
+$default-color:#fff;
+$nondefault-color:#000;
+
+/*默认背景颜色*/
+$default-bg-color:#f2f2f2;
+/* v2 #f9f9f9 */
+/*提示文字颜色*/
+$tip-color:#1a1a1a;
+/* v2 #666 */
+/*边框颜色*/
+$border-color:#e6e6e6;
+$border-light: #f4f5f6;
+/*边框选中颜色*/
+$border-color-active:#1766bb;
+/*label颜色*/
+$label-color:#999;
+/*title颜色*/
+$title-color:#151515;
+/*placeholder颜色*/
+$placeholder-color:#ccc;
+/*推荐recommend*/
+$recommend-bg: #08081c;
+$rec-border-color: #ddd;
+$yellow-color: #f09402;
+$lowgreen-color: #e4f7e7;
+$lowblue-color: #e4ebf7;
+$green-color: green;
+/*more*/
+$bluebtn-color: #489ef6;
+/*自助优惠申请*/
+$tabtit-color: #317fc2;
+$bluebtnlow-color: #a7c6e1;
+/* must */
+$must-color:#b01313;
+
+/*form表单input下边框颜色*/
+$inputbotline-color: #999;
+/*form背景*/
+$forminput-color: #f2f2f2;
+
+
+/*register-agreement*/
+$register-agreement:#1F67B9;
+/*注册复选框 默认背景 */
+$register-default-agreement:#D1CFCF;
+/*登录 输入框边框颜色 */
+$login-border-color:#bbb;
+
+/*登录注册 h3*/
+$auth-title:#3c4046;
+$auth-input-bg:#f6f9fb;
+$auth-label:#72767b;
+$auth-disabled-bg: linear-gradient(90deg, #3c4046 100%);
+$auth-active-bg:linear-gradient(90deg, #337efe 0%, #15ede8 100%);
+$auth-noticebar:#ba56f3;
+$auth-agreement:#337efe;
+
+
+/*首页登录注册按钮*/
+$index-login-btn-bg:#488bfe;
+$index-register-btn-bg:#f1b000;
+/*首页域名背景*/
+$footer-bg:#4a4a4a;
+$index-domain-bg:#252525;
+/* 首页banner背景*/
+$index-banner-bg:#151515;
+$index-banner-download-bg:rgba(51, 51, 51, 0.9);
+/*首页滚动公告label背景*/
+$index-noticebar-bg:#168df6;
+$index-noticebar-text:#1279d9;
+/*首页左侧菜单背景*/
+$index-menu-bg:#272729;
+/*首页左侧菜单active*/
+$index-color:#488bfe;
+$index-menu-active:#222222;
+$index-menu-active-before:#488bfe;
+$index-menu-info-after:#87d91d;
+$index-menu-info-before:#08ca8c;
+$nut-switch-bg:rgba(252, 251, 251, .3);
+$nut-switch-active:#3380fe;
+$nut-switch-active-bg:rgba(50, 128, 254, .3);
+$index-game-style-bg:#282828;
+$index-game-type-text-color:#a4a1a1;
+$index-game-bg:#313131;
+/*首页左侧菜单登录-- 个人中心按钮背景*/
+$index-menu-toMy-bg:#31955e;
+/*首页快捷额度转换背景*/
+$index-changeMoney-mask:rgba(0, 0, 0, .7);
+$index-changeMoney-money:#FFC000;
+$index-changeMoney-bg:#515151;
+$index-changeMoney-border:#888888;
+$index-changeMoney-gameList-bg:#343434;
+$index-changeMoney-gameList-color:#999;
+$index-changeMoney-gameList-border:#3E3E3E;
+$index-changeMoney-gameList-btn1:#2377D6;
+$index-changeMoney-gameList-btn2:#28BD95;
+$index-game-type-bg1:#282828;
+$index-game-type-active:#38383f;
+/*推广所用背景*/
+$prompt-bg: #f0f0f5;
+/*推广蓝色*/
+$prompt-blue: #3a74d2;
+$prompt-smalltit: #646466;
+$prompt-tongji-yellow: #ff8d38;
+$prompt-tongji-blue: #00b7ee;
+
+/*安全中心*/
+$center-unbind:#1766BB;
+$center-background:#dedede;
+$center-newbg: #f9f9f9;
+/*关于我们-文本颜色*/
+$about-color:#141414;
+/*银行卡文本颜色*/
+$bank-card-color:#aeaeae;
+$bank-card-bgleft:#f82657;
+$bank-card-bgright:#fb3d3d;
+
+/*投注记录背景色*/
+$bet-record-bg: #F9F9F9;
+/*投注隔离边框*/
+$bet-record-bdr: #F4F5F6;
+
+/*资金记录*/
+$processing-color: #FAB592;
+/*处理中*/
+$success-color: #C9B1F7;
+/*处理中*/
+$fail-color: #A5E1F7;
+/*处理中*/
+$poptit-color: #F83B51;
+
+/*新大转盘*/
+$luckbg: #e74143;
+$luck-yel:#ffbe04;
+$luck-yellow: #fff0c7;
+$luck-redtxt: #ca1518;
+$luck-num: #f0f002;
+$luck-numa:#ffe432;
+$luck-duck: #141414;
+$luck-duckred: #7a2716;
+$luck-btnbg: #fee94e;
+$luck-btntxt: #db483c;
+
+/*稽核查询*/
+$audit-num:#4fb4fd;
+$tab-bord:#e1e1e1;
+
+/*自助反水*/
+$backwater-no-btn:#d9d9d9;
+$backwater-gradualb-right: #004deb;
+$backwater-gradualt-right: #36cee4;
+$backwater-gradualb-left: #f5274e;
+$backwater-gradualc-left: #f95f48;
+$backwater-gradualt-left: #fc9141;
+$backwater-redshadow: #fc4a48;
+$backwater-redtext: #f7464a;
+$backwater-disable: #eee;
+/*活动自助优惠*/
+$state-ongoing: #f83e3e;
+$state-unbegun: #488bfe;
+$state-end: #999;
+$state-border: #a0a0a0;
+$state-background: #f9f9f9;
+$state-red: #ff0505;
+
+$gift-bgtop: #ff3b4c;
+$gift-bgbottom: #fe5a40;
+$gift-close: #ff404a;
+/*收件箱 */
+$inbox-shadow:#d0e0fa;
+$inbox-btn:#5493fe;
+$inbox-qs-yt:#43d391;
+$inbox-qs-wt:#ff0505;
+$subord-blue-shadow: 0px 20px 20px -15px RGBA(0, 196, 255, 0.4);
+/* 游戏大厅 banner 脚标*/
+$banner-index:#ff5500;
+$game-nav:#1b1b1b;
+$game-zr-btn:#ff3b93;
+$game-ty-btn:#50ffe4;
+$game-change-money:#b1b1b1;
+/* 登录注册验证码背景色*/
+$auth-code-bg:#d7e9f9;
+$auth-thdlogins-title: #666;
+$auth-register-in:#3e4a59;
+/* 添加群聊 */
+$add-chat-btn:#4fd5ae;
+$add-chat-input:#f8f8f8;
+
+$msg-error: #f73939;
+$chat-admin-name:#f73939;
+$pk-online:#20e06d;
+
+/*投注计划*/
+$plane-bg: #e0e0e0;
+$planBtn-b: #ffb726;

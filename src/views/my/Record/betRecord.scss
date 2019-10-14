@@ -1,0 +1,223 @@
+@import "../../../styles/pk-pwd.scss";
+
+.spansright {
+	.imgsbank {
+		position: absolute;
+		width: 0.58667rem /* 44/75 */;
+		top: 0.24rem /* 18/75 */;
+		right: 0.2rem /* 15/75 */;
+	}
+}
+.nut-navbar{
+    height:1.213333rem;
+    line-height: 1.213333rem;
+    font-size: .48rem;
+    font-weight: normal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    color: $default-color;
+
+}
+.relative{
+    position: relative;
+}
+.headi{
+    position: absolute;
+    width: .32rem /* 24/75 */;
+    right: -.24rem /* 18/75 */;
+    img{
+        width: 100%;
+    }
+}
+.headp {
+    font-weight: normal;
+    height: 1.213333rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .input-dates{
+        /deep/.bet-name{
+            background: $index-banner-bg!important;
+        }
+    }
+}
+.bet-name {
+    /deep/.nut-cell-box {
+        background-color: $index-banner-bg;
+        // margin-top: -.06667rem /* 5/75 */;
+    }
+    .show-value {
+        color: $default-color;
+        font-size: 0.48rem /* 36/75 */;
+        display: block;
+    }
+}
+.top-fifter {
+	height: 1.2rem /* 90/75 */;
+	background: $default-color;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.fifter {
+		display: flex;
+		align-items: center;
+		// max-width: 2.88rem /* 216/75 */;
+		margin-right: .13333rem /* 10/75 */;
+		label {
+            color: #666;
+            font-size: 0.34667rem;
+		}
+		.input-game {
+			height: 0.66667rem /* 50/75 */;
+			background: $default-color;
+			/deep/.nut-cell {
+				height: 0.66667rem /* 50/75 */;
+				background: none;
+				border: 1px solid #e2e2e2;
+				border-radius: 0.10667rem /* 8/75 */;
+				.nut-cell-box {
+					min-height: 0.66667rem /* 50/75 */;
+					background: $default-color;
+				}
+			}
+		}
+		.hasicon {
+			position: relative;
+			/deep/.nut-cell {
+				padding-right: 0.53333rem /* 40/75 */;
+			}
+			i {
+				display: block;
+				position: absolute;
+				top: 0.26667rem /* 20/75 */;
+				right: 0.16rem /* 12/75 */;
+				width: 0.32rem /* 24/75 */;
+				img {
+					display: block;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+.table {
+	.green {
+		color: #43d291;
+	}
+	.red {
+		color: #ef0505;
+	}
+	position: absolute;
+	top:1.1rem;
+	z-index: 3;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	.nut-scroller {
+		height: calc(100% - 0.8rem) !important;
+	}
+	.thead {
+		color: $label-color;
+		// border-left: $onerem solid $default-color;
+		height: 1.06667rem /* 80/75 */;
+		/deep/ .nut-col {
+			padding: $tenrem 0;
+			text-align: center;
+			font-size: 0.29333rem;
+			font-weight: normal;
+			// background: $rec-border-color;
+			// border-right: $onerem solid $default-color;
+		}
+		.md-3 {
+			width: 20%;
+		}
+	}
+	.tbody {
+		height: auto;
+		background: $default-color;
+		.ptime {
+			font-size: 0.26667rem /* 20/75 */;
+		}
+		.flex-content {
+			font-size: 0.29333rem /* 22/75 */;
+			color: #333;
+			border-right: $onerem solid $bet-record-bdr;
+			.ptype {
+				color: #333;
+				font-size: 0.29333rem /* 22/75 */;
+				&:nth-child(2) {
+					color: #666;
+					font-size: 0.26667rem /* 20/75 */;
+				}
+			}
+			&.green {
+				color: #43d291;
+			}
+			&.red {
+				color: #ef0505;
+			}
+		}
+		margin-bottom: 0.32rem /* 24/75 */;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	.tableList {
+		.nut-col {
+			background: $default-color;
+		}
+		// &:nth-child(2n + 1) {
+		// 	.nut-col {
+		// 		background-color: $light-color;
+		// 	}
+		// }
+	}
+
+	.processing {
+		color: $yellow-color;
+	}
+}
+footer {
+	background: $primary-color;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 10;
+	height: 1.33333rem /* 100/75 */;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	.report {
+		display: flex;
+		width: 2.93333rem /* 220/75 */;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+		color: $default-color;
+		font-size: .48rem /* 36/75 */;
+		i {
+			display: block;
+			width: 0.58667rem /* 44/75 */;
+			height: 0.58667rem /* 44/75 */;
+			margin-right: 0.34667rem /* 26/75 */;
+			img {
+				width: 100%;
+				height: 100%;
+				display: block;
+			}
+		}
+	}
+}
+
+.vis-hid {
+	visibility: hidden;
+}
+.fs22 {
+	font-size: 0.29333rem /* 22/75 */;
+}
